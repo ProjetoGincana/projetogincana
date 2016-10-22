@@ -1,2 +1,3 @@
-# site-workspace
-Repositório para o time site desenvolver telas
+# Projeto Gincana Workspace
+
+TODO: README
