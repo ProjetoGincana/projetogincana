@@ -1,0 +1,94 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+body {
+	display: block;
+	text-align: center;
+	font-family: "Gotham Narrow", Gotham, sans-serif;
+	width: 800px;
+	height: 400px;
+	
+	
+}
+h1{
+	text-transform: uppercase;
+	color: #7B0000;
+	font-family: "Gotham Narrow Bold", Gotham, sans-serif;
+	font-weight: bold;
+	text-align: left;
+}
+.a {
+	font-style: italic;
+	color: #7B0000;	
+}
+input[type=password] {
+    /*border: 2px solid #7B0000;*/
+	border:1px solid #CFD0CF;
+	border-radius:10px;
+	height: 40px;
+	width: 500px;
+}
+input[type=email] {
+    /*border: 3px solid #7B0000;*/
+	border:1px solid #CFD0CF;
+	border-radius:10px;
+	height: 40px;
+	width: 500px;
+}
+
+#here {
+	text-decoration: underline;
+	color: #7B0000;		
+}
+
+.f {
+	text-align: right !important;
+	font-size: 13px;
+	font-style: italic;
+	font-weight: bold;
+	color: #808080;
+	margin-right: 125px;
+	margin-top: 5px;
+	float: right;
+	
+	
+}
+
+.form {
+	font-size: 24px;
+	
+}
+
+p {
+	font-size: 16 !important;
+}
+
+#b {
+	background-color: #7B0000;
+	text-transform: uppercase;
+	color: white;
+	font-family: "Gotham Narrow Bold", Gotham, sans-serif;
+	font-weight: bold;
+	border-color: #7B0000 !important;
+	
+}
+	
+#img {
+margin-top: 10px;
+}	
+	
+	
+	
+	
+	
+	
