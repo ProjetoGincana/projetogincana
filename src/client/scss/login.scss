@@ -1,0 +1,78 @@
+$main-color: #7B0000;
+
+body {
+	font-family: "Gotham Narrow", Gotham, sans-serif;
+}
+
+h1 {
+	text-transform: uppercase;
+	color: $main-color !important;
+	font-weight: bold;
+    text-align: center;
+}
+
+.container-fluid {
+	min-width: 350px;
+}
+
+.a {
+	font-style: italic;
+	color: $main-color;
+}
+
+input [type=password], [type=email] {
+	border:1px solid #CFD0CF;
+	border-radius:10px;
+	height: 40px;
+	width: 100%;
+}
+
+
+#here {
+	text-decoration: underline;
+	color: $main-color;		
+}
+
+.form {
+	font-size: 24px;
+	max-width: 600px;
+}
+
+.form-group {
+    clear: both;
+	a {
+		font-size: 13px;
+		font-style: italic;
+		font-weight: bold;
+		color: #808080;
+		float: right;
+	}
+    label {
+        color: $main-color;
+    }
+}
+
+p {
+	font-size: 16 !important;
+}
+
+#entrar-button {
+	background-color: $main-color;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	border-color: $main-color !important;
+    margin-top: 20px;
+}
+	
+#img {
+    margin-top: 10px;
+}	
+	
+.col-centered {
+    float: none;
+    margin: 0 auto 15px auto;
+    width: 60%;
+}
+	
+	
