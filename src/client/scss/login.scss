@@ -11,7 +11,7 @@ h1 {
     text-align: center;
 }
 
-.container-fluid {
+#login-container {
 	min-width: 350px;
 }
 
@@ -34,12 +34,12 @@ input [type=password], [type=email] {
 }
 
 .form {
-	font-size: 24px;
 	max-width: 600px;
 }
 
 .form-group {
     clear: both;
+	font-size: 24px;
 	a {
 		font-size: 13px;
 		font-style: italic;
@@ -50,10 +50,6 @@ input [type=password], [type=email] {
     label {
         color: $main-color;
     }
-}
-
-p {
-	font-size: 16 !important;
 }
 
 #entrar-button {
