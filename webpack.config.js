@@ -8,9 +8,18 @@ module.exports = {
     output: {
         path: join(__dirname, "/src/java/resources/"),
         filename:  "js/bundle.js",
+        publicPath: '/src/java/resources/'
+    },
+    resolve: {
+        extensions: ['.js', '.jsx']
     },
     module: {
         rules: [
+            {
+                test: /\.jsx?$/,
+                exclude: /node_modules/,
+                loaders: ["babel-loader"]
+            },
             {
                 test: /.scss$/,
                 use: ExtractTextPlugin.extract({
