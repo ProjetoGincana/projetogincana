@@ -1,4 +1,5 @@
 import 'jquery';
-import 'bootstrap/dist/js/bootstrap';
 
-alert("In bundle");
+require('../scss/login.scss')
+require('bootstrap-loader')
+
