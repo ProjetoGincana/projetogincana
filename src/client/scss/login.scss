@@ -1,23 +1,7 @@
-$main-color: #7B0000;
-
-body {
-	font-family: "Gotham Narrow", Gotham, sans-serif;
-}
-
-h1 {
-	text-transform: uppercase;
-	color: $main-color !important;
-	font-weight: bold;
-    text-align: center;
-}
+@import 'utils/variables';
 
 #login-container {
 	min-width: 350px;
-}
-
-.a {
-	font-style: italic;
-	color: $main-color;
 }
 
 input [type=password], [type=email] {
@@ -27,7 +11,6 @@ input [type=password], [type=email] {
 	width: 100%;
 }
 
-
 #here {
 	text-decoration: underline;
 	color: $main-color;		
@@ -35,21 +18,21 @@ input [type=password], [type=email] {
 
 .form {
 	max-width: 600px;
-}
-
-.form-group {
-    clear: both;
-	font-size: 24px;
-	a {
-		font-size: 13px;
-		font-style: italic;
-		font-weight: bold;
-		color: #808080;
-		float: right;
+	
+	.form-group {
+		clear: both; // Very important because of the a {float: right}
+		font-size: 24px;
+		a {
+			font-size: 13px;
+			font-style: italic;
+			font-weight: bold;
+			color: #808080;
+			float: right;
+		}
+		label {
+			color: $main-color;
+		}
 	}
-    label {
-        color: $main-color;
-    }
 }
 
 #entrar-button {
@@ -63,12 +46,6 @@ input [type=password], [type=email] {
 	
 #img {
     margin-top: 10px;
-}	
-	
-.col-centered {
-    float: none;
-    margin: 0 auto 15px auto;
-    width: 60%;
 }
 	
 	
