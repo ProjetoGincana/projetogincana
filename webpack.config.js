@@ -1,7 +1,13 @@
 const webpack = require('webpack')
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const {join} = require('path')
-const devBuild = process.env.NODE_ENV !== 'production';
+const devBuild = process.env.NODE_ENV != "production";
+
+if (devBuild){
+    console.log("In Development ")
+}else{
+    console.log("In Production")
+}
 
 module.exports = {
     entry: "./src/client/js/vendors.js",
