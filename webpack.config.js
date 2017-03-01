@@ -10,6 +10,9 @@ module.exports = {
         filename:  "js/bundle.js",
         publicPath: '/src/java/resources/'
     },
+    devServer: {
+        port: 3000
+    },
     resolve: {
         extensions: ['.js', '.jsx']
     },
