@@ -4,17 +4,19 @@ const {join} = require('path')
 const devBuild = process.env.NODE_ENV != "production";
 
 if (devBuild){
-    console.log("In Development ")
+    console.log("In Development")
 }else{
     console.log("In Production")
 }
 
 module.exports = {
-    entry: "./src/client/js/vendors.js",
+    entry: {
+    	"login/bundle": "./src/client/js/login/index.js"
+    },
     output: {
-        path: join(__dirname, "/src/java/resources/"),
-        filename:  "js/bundle.js",
-        publicPath: '/src/java/resources/'
+        path: join(__dirname, "/src/main/resources/"),
+        filename:  "js/[name].js",
+        publicPath: '/src/main/resources/'
     },
     devServer: {
         port: 3000

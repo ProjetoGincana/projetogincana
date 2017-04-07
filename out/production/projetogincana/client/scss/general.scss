@@ -1,0 +1,23 @@
+@import 'utils/variables';
+
+body {
+	font-family: "Gotham Narrow", Gotham, sans-serif;
+}
+
+h1 {
+	text-transform: uppercase;
+	color: $main-color !important;
+	font-weight: bold;
+    text-align: center;
+}
+	
+.col-centered {
+    float: none;
+    margin: 0 auto 15px auto;
+    width: 60%;
+}
+
+.a {
+	font-style: italic;
+	color: $main-color;
+}

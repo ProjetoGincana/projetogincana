@@ -2,3 +2,4 @@
 node_modules/
 /src/java/resources/js/*
 /src/java/resources/css/*
+/bin/

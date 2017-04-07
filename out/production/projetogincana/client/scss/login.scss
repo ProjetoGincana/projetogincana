@@ -1,0 +1,51 @@
+@import 'utils/variables';
+
+#login-container {
+	min-width: 350px;
+}
+
+input [type=password], [type=email] {
+	border:1px solid #CFD0CF;
+	border-radius:10px;
+	height: 40px;
+	width: 100%;
+}
+
+#here {
+	text-decoration: underline;
+	color: $main-color;		
+}
+
+.form {
+	max-width: 600px;
+	
+	.form-group {
+		clear: both; // Very important because of the a {float: right}
+		font-size: 24px;
+		a {
+			font-size: 13px;
+			font-style: italic;
+			font-weight: bold;
+			color: #808080;
+			float: right;
+		}
+		label {
+			color: $main-color;
+		}
+	}
+}
+
+#entrar-button {
+	background-color: $main-color;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	border-color: $main-color !important;
+    margin-top: 20px;
+}
+	
+#img {
+    margin-top: 10px;
+}
+	
+	
